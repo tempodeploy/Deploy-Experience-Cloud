@@ -1,0 +1,52 @@
+{
+  "appPageId" : "995adb04-5dde-4845-88d9-484845d767bc",
+  "componentName" : "siteforce:sldsTwoCol84Layout",
+  "dataProviders" : [ ],
+  "id" : "6ba204bc-f292-41b6-b826-23b01495def7",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "             <h1 style=\"text-align: center;\">                 <b style=\"font-size: 28px; color: #1e2443;\">Welcome!</b>             </h1>             <p style=\"text-align: center;\">                 <span style=\"font-size: 20px;\">Work on leads, register deals, and track progress with analytics.</span>             </p>        "
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "a9f99a29-9356-4fdd-a6cd-45d14ba4043b",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "416ab9f6-7935-43ac-a02d-4b3953ffeee3",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "66bb8eac-6d3e-411e-8c38-97cd5c705605",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "db4d9275-c0fa-41ad-8425-b0baf45443bb",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "3f3fa6a6-4a56-47c2-b330-d947206f06c0",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Home"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "79920186-1fa0-4c94-9ddb-2d42eb21fb28",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "069382d5-28e8-44eb-88cd-01935e7ffddc",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "home"
+}
